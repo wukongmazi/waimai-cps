@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/play/play",
+    "pages/takeaway/takeaway",
+    "pages/index/index",
+    "pages/detail/detail",
+    "pages/mine/mine",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#5A5A5A",
+    "selectedColor": "#548cd7",
+    "backgroundColor": "#FFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/play/play",
+        "text": "美食",
+        "iconPath": "images/tabBar/icon-ms1@2x.png",
+        "selectedIconPath": "images/tabBar/icon-ms2@2x.png"
+      },
+      {
+        "pagePath": "pages/takeaway/takeaway",
+        "text": "领券",
+        "iconPath": "images/tabBar/icon-cp1@2x.png",
+        "selectedIconPath": "images/tabBar/icon-cp2@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/tabBar/icon-my1@2x.png",
+        "selectedIconPath": "images/tabBar/icon-my2@2x.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

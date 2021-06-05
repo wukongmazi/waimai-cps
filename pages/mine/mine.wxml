@@ -1,0 +1,52 @@
+<!--mine.wxml-->
+<view class="container">
+	<view class="bg-box">
+		<image class="bgpic" src="../../images/bg.png"></image>
+		<view class="personalmsg">
+			<!-- <image src="{{avatar_url}}"></image>
+			<view class="nickname"><text>{{nick_name}}</text></view> -->
+			<!-- <view class="avatarUrl"><open-data type="userAvatarUrl"></open-data></view> -->
+			<view class="userinfo-avatar">
+        <open-data type="userAvatarUrl"></open-data>
+      </view>
+			<!-- <open-data type="userNickName"></open-data> -->
+			<view class="userinfo-nickname"><open-data type="userNickName"></open-data></view>
+		</view>
+	</view>
+	<view class="mylsit">
+		<view class="itembox" bindtap='toSubMessage'>
+			<view class="item-cont">
+				<image src="../../images/remind.png"></image>
+				<text>领券提醒</text>
+			</view>
+			<view class="item-arrow">
+				<image src="../../images/arrow.png"></image>
+			</view>
+		</view>
+		<view class="itembox" bindtap='toContact'>
+			<view class="item-cont">
+				<image src="../../images/contact.png"></image>
+				<text>联系作者</text>
+			</view>
+			<view class="item-arrow">
+				<image src="../../images/arrow.png"></image>
+			</view>
+		</view>
+		<view class="itembox">
+			<view class="item-cont">
+				<image src="../../images/customer.png"></image>
+				<text>在线客服</text>
+			</view>
+			<view class="item-arrow">
+				<image src="../../images/arrow.png"></image>
+			</view>
+			<button open-type="contact"></button>
+		</view>
+	</view>
+
+	<modal title="联系作者【huangby6261】" hidden="{{modalHidden}}" bindconfirm="modalConfirm" bindcancel="modalCandel">
+    <view>
+      <image class="modalImage" src="../../images/wechat-code.png" mode='aspectFill'></image>
+    </view>
+  </modal>
+</view>

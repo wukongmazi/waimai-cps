@@ -1,0 +1,199 @@
+/* pages/takeaway/takeaway.wxss */
+.container {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: #f1f2f7;
+}
+.banner_style {
+  height: 120px;
+  border-radius: 10px;
+}
+
+.banner_image_style {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.banner_image {
+  width: 100%;
+  height: 100%;
+}
+
+page {
+  background: #efefef;
+  padding-bottom: 15rpx;
+}
+
+.banner {
+  width: 100%;
+  height: 424rpx;
+  margin-top: 20rpx;
+}
+
+.banner swiper {
+  width: 100%;
+  height: 424rpx;
+}
+
+.banner swiper-item:nth-of-type(2) image {
+  margin-left: 2rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 424rpx;
+}
+
+.list-title {
+  display: flex;
+}
+
+.list-title .logo {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin: 20rpx;
+}
+
+.list-title .logo image {
+  width: 100%;
+}
+
+/* 列表一张图样式 */
+
+.list:nth-child(2) {
+  border-bottom-right-radius: 15rpx;
+  border-bottom-left-radius: 15rpx;
+}
+
+.list:not(:nth-child(2)) {
+  border-radius: 15rpx;
+}
+
+.list + .list {
+  margin-top: 20rpx;
+}
+
+.list.bannerStyle {
+  /* height: 482rpx; */
+  height: 392rpx;
+  width: 100%;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.list.bannerStyle .list-title {
+  width: 100%;
+  height: 64rpx;
+  color: #000;
+  background: #fff;
+}
+
+.list.bannerStyle .list-title view {
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  font-weight: 600;
+  margin-left: 30rpx;
+}
+
+.list.bannerStyle .list-title view text.name {
+  margin-right: 14rpx;
+  font-size: 30rpx;
+}
+
+.list.bannerStyle .list-title view text.date {
+  background: #000;
+  color: #fff;
+  min-width: 35rpx;
+  height: 40rpx;
+  padding: 0 5rpx;
+  border-radius: 10rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+}
+
+.list.bannerStyle .list-title view text.day {
+  margin-left: 6rpx;
+}
+
+/* .list.bannerStyle:nth-child(2) .list-title {
+  background: #feeeee;
+} */
+
+.list.bannerStyle .imgList {
+  width: 100%;
+  height: 420rpx;
+  margin: 0;
+  overflow: hidden;
+}
+
+.list.bannerStyle .imgList view {
+  width: 100%;
+  height: 100%;
+  border-radius: 0;
+}
+
+.list.bannerStyle .jump {
+  position: absolute;
+  right: 30rpx;
+  bottom: 40rpx;
+  width: 140rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  color: #fff;
+  border-radius: 10rpx;
+  background: #548cd7;
+  font-size: 28rpx;
+}
+
+/* switch_box */
+.switch_box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 30rpx;
+  height: 88rpx;
+  display: flex;
+  box-shadow: 0px 6px 11px rgba(0, 0, 0, 0.07);
+  background: #fff;
+}
+
+.switch_box .item {
+  flex: 1;
+  text-align: center;
+  line-height: 88rpx;
+  font-size: 28rpx;
+  font-weight: 400;
+  position: relative;
+  color: #000;
+}
+
+.switch_box .item view {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50rpx;
+  height: 6rpx;
+  border-radius: 4rpx;
+  bottom: 0;
+}
+
+.switch_box .item .active_line {
+  background: var(--themeOne);
+}
+
+.switch_box .active {
+  color: var(--themeOne);
+  font-weight: bold;
+  font-size: 32rpx;
+}
