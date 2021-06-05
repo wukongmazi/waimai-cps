@@ -1,37 +1,38 @@
 # waimai-cps
 
 #### 介绍
-外卖CPS，别人领红包下单，你拿佣金，不需要服务器，不需要复杂的部署过程，个人类型的小程序就可以玩。
+外卖CPS，别人领红包下单，你拿佣金，简单变现。自己也可以用这个小程序领红包下单，每个月可以省下不少钱。
+不需要服务器，不需要复杂的部署过程，个人类型的小程序就可以玩。
 
-#### 软件架构
-软件架构说明
+#### 线上体验
+![Image text](https://img-blog.csdnimg.cn/20210605231706273.png)
+
+#### 省钱截图
+![Image text](https://img-blog.csdnimg.cn/20210605225719688.png)![Image text](https://img-blog.csdnimg.cn/20210605225802128.png)
+
+![Image text](https://img-blog.csdnimg.cn/20210605225933225.png)![Image text](https://img-blog.csdnimg.cn/20210605230013173.png)
+
+#### 佣金截图
+![Image text](https://img-blog.csdnimg.cn/20210605230239366.png)![Image text](https://img-blog.csdnimg.cn/20210605230318618.png)
+
+![Image text](https://img-blog.csdnimg.cn/20210605230333347.png)
 
 
-#### 安装教程
+#### 项目截图
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+![Image text](https://img-blog.csdnimg.cn/20210605223034228.png)![Image text](https://img-blog.csdnimg.cn/20210605223311779.png)
+
+![Image text](https://img-blog.csdnimg.cn/20210605223559673.png)![Image text](https://img-blog.csdnimg.cn/20210605223705194.png)
+
+![Image text](https://img-blog.csdnimg.cn/20210605224012193.png)![Image text](https://img-blog.csdnimg.cn/20210605223847181.png)
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  去腾讯位置服务(https://lbs.qq.com)
+申请获取美食商家的key
+2.  将pages/play/play.js中第45行左右的key替换
+3.  申请属于自己的美团、饿了么推广链接，替换原来的链接，不懂得怎么申请联系咨询  
 
-#### 参与贡献
+#### 联系作者
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
-
-
-#### 特技
-
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![Image text](https://ysd-1300312604.cos.ap-shanghai.myqcloud.com/goods/goods_editor/20210529/d5591ebea3b14b7fb493c6b970571630.png)
