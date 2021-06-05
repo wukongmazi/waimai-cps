@@ -1,0 +1,46 @@
+<!--/pages/detail/detail.wxml-->
+
+<view class='content'>
+
+  <view class='line-layout'>
+    <view class='label-text'>店名:</view>
+    <view class='info-text'>{{item.title}}</view>
+  </view>
+
+  <view class='line-layout'>
+    <view class='label-text'>类别:</view>
+    <view class='info-text'>{{item.category}}</view>
+  </view>
+
+  <view class='line-layout'>
+    <view class='label-text'>距离:</view>
+    <view class='info-text'>{{item._distance}}米</view>
+  </view>
+
+  <view class='line-layout'>
+    <view class='label-text'>地址:</view>
+    <view class='info-text'>{{item.address}}</view>
+  </view>
+
+  <view class='line-layout'>
+    <view class='label-text'>电话:</view>
+    <view class='info-text'>{{item.tel ? item.tel : '暂无电话'}}</view>
+  </view>
+
+  <view class='line-layout'>
+    <button class='btn-open' bindtap='openMap'>查看位置</button>
+    <!-- <view class='goto-layout' bindtap='openMap'>
+        <view class='goto-text'>查看位置</view>
+    </view>
+    <view class='goto-share-layout' bindtap='goToGetCoupon'>
+        <view class='goto-text'>去领券</view>
+    </view> -->
+  </view>
+  <view class='line-layout'>
+    <button class='btn-open' bindtap='goToGetCoupon'>去领券</button>
+  </view>
+
+</view>
+
+<!-- <view class='font-title-bg font-title-bg-style'>{{title}}</view> -->
+

@@ -1,0 +1,27 @@
+/**app.wxss**/
+/* .container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}  */
+
+.container {
+  height: 100%;
+  box-sizing: border-box;
+  font-family: '微软雅黑';
+  font-size: 26rpx;
+  background-color: #efefef;
+} 
+/*没有更多了*/
+.nomore{
+    height: 50rpx;
+    line-height: 50rpx;
+    text-align: center;
+    font-size: 23rpx;
+    color: #aaa;
+}
+

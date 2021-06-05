@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "i-icon": "../../dist/icon/index",
+    "i-notice-bar": "../../dist/notice-bar/index"
+  },
+  "disableScroll": false,
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#548cd7",
+  "navigationBarTitleText": "转转定外卖",
+  "navigationBarTextStyle": "white"
+}

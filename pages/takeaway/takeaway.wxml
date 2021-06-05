@@ -1,0 +1,29 @@
+<!--pages/takeaway/takeaway.wxml-->
+<navbar titleText="惠享生活" backHome bottomBackground="{{swiperColor}}"  bind:topNavHeight="getTopNavHeight"></navbar>
+
+<view class="switch_box">
+	<view class="item {{navIndex == index ? 'active': ''}}" catchtap="selectNavIndex" data-index="{{index}}" data-materialId="{{item.materialId}}" wx:for="{{navList}}" wx:key="unique">
+		<text>{{item.title}}</text>
+		<view class="{{navIndex == index ? 'active_line': ''}}"></view>
+	</view>
+</view>
+
+<view class="container">
+  <scroll-view class="content" scroll-y="true">
+    <!-- 图片列表 -->
+    <view class='list bannerStyle' wx:for="{{imgUrls}}" wx:key="index">
+      <view class='list-title'>
+        <view class="text-moreDay">
+          <text class="name">{{item.title}}</text>
+        </view>
+      </view>
+      <view class="imgList" catchtap="enterDetail" data-id="{{item.id}}" data-type="{{item.id}}" data-app-id="{{item.appId}}" data-path="{{item.path}}">
+        <view>
+          <image class="banner_image" mode="aspectFill" src='{{item.imgUrl}}' data-type="imgUrls" data-img="{{item.imgUrl}}" data-index="0"></image>
+        </view>
+      </view>
+      <view class="jump" data-id="{{item.id}}" catchtap="enterDetail" data-app-id="{{item.appId}}" data-path="{{item.path}}">查看详情</view>
+
+    </view>
+  </scroll-view>
+</view>
