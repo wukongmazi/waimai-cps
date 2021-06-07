@@ -31,7 +31,13 @@
 1.  去腾讯位置服务(https://lbs.qq.com)
 申请获取美食商家的key
 2.  将pages/play/play.js中第45行左右的key替换
-3.  申请属于自己的美团、饿了么推广链接，替换原来的链接，不懂得怎么申请联系咨询  
+3.  申请属于自己的美团、饿了么推广链接，替换原来的链接
+
+#### 知识星球
+
+不懂得怎么申请推广链接的加入知识星球，为你解答
+
+![Image text](https://haole-images.oss-cn-shanghai.aliyuncs.com/aliyun/oss/oss_cloud/20210607/369bdadf6d6b4d96b115b689488bc480.jpg)
 
 #### 联系作者
 
