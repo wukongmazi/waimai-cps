@@ -26,12 +26,18 @@
 
 ![Image text](https://img-blog.csdnimg.cn/20210605224012193.png)![Image text](https://img-blog.csdnimg.cn/20210605223847181.png)
 
+#### 有收获可以请作者喝咖啡哟
+
+If the project is very helpful to you, you can buy the author a cup of coffee. 如果这个项目对您有帮助，请作者喝杯咖啡吧。☕
+![Image text](https://haole-images.oss-cn-shanghai.aliyuncs.com/aliyun/oss/oss_cloud/20210629/1df7acb774d847ba8fb4b720048a97c8.jpg)  ![Image text](https://haole-images.oss-cn-shanghai.aliyuncs.com/aliyun/oss/oss_cloud/20210629/c671c6152898437485f25faf419f20af.jpg)
+
 #### 使用说明
 
 1.  去腾讯位置服务(https://lbs.qq.com)
 申请获取美食商家的key
 2.  将pages/play/play.js中第45行左右的key替换
 3.  申请属于自己的美团、饿了么推广链接，替换原来的链接
+4.  基于Apache License 2协议开源友好，使用、参考、转载请保留出处，严禁将项目直接打包出售。
 
 #### 知识星球
 
